@@ -1,0 +1,40 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "todo list assignment",
+  "default": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run static && npx parcel src/index.html",
+    "static": "npx gulp",
+    "dev": "",
+    "build": "npm run static && npx parcel build src/index.html",
+    "clean:dev": "rm -rf .parcel-cache dist",
+    "clean:git": "rm -rf .parcel-cache dist node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/est-gonzalez/todolist-assignment1.git"
+  },
+  "keywords": [
+    "todo",
+    "list"
+  ],
+  "author": "Esteban Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/est-gonzalez/todolist-assignment1/issues"
+  },
+  "homepage": "https://github.com/est-gonzalez/todolist-assignment1#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0",
+    "gulp": "^4.0.2",
+    "http-server": "^14.0.0",
+    "parcel": "^2.0.0",
+    "sass": "^1.43.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "uuid": "^8.3.2"
+  }
+}

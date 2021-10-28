@@ -1,0 +1,54 @@
+[{
+    "id": "a2aac7fe",
+    "category": "Homework",
+    "title": "Need to study for DMIT 2008",
+    "isComplete": true,
+    "startDate": "Sunday October 31st",
+    "startTime":"4:00pm",
+    "endDate": "Sunday October 31st",
+    "endTime":"5:00pm"
+},    
+
+{
+    "id": "a5fb76e4",
+    "category": "Shopping",
+    "title": "Need to get groceries",
+    "isComplete": true,
+    "startDate": "Thursday October 28th",
+    "startTime":"4:00pm",
+    "endDate": "Thursday October 28th",
+    "endTime":"5:00pm"
+},    
+
+{
+    "id": "176e1c4b",
+    "category": "Cleaning",
+    "title": "Need to vacuum and wash the dishes",
+    "isComplete": true,
+    "startDate": "Friday October 29th",
+    "startTime":"1:00pm",
+    "endDate": "Friday October 29th",
+    "endTime":"2:00pm"
+},    
+
+{
+    "id": "3dcc1300",
+    "category": "Drinking",
+    "title": "Going out for beers with friends",
+    "isComplete": true,
+    "startDate": "Saturday October 30th",
+    "startTime":"8:00pm",
+    "endDate": "Sunday October 31st",
+    "endTime":"1:00am"
+},    
+
+{
+    "id": "12864823",
+    "category": "Exercise",
+    "title": "Need to move my lazy self",
+    "isComplete": true,
+    "startDate": "Sunday October 31st",
+    "startTime":"2:00pm",
+    "endDate": "Sunday October 31st",
+    "endTime":"2:30pm"
+}]    
