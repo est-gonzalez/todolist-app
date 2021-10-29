@@ -9,7 +9,7 @@ const notFound = function(){
         </header>
     `
     const pageHeader = makeElement(headerTemplate)
-    const homeLink = link("employee directory", "/directory")
+    const homeLink = link("take me back", "/todopage")
 
     pageHeader.append(homeLink)
     page.append(pageHeader)
