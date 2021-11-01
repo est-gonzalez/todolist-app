@@ -1,9 +1,0 @@
-# node modules
-/node_modules
-#VSCode
-/.vscode
-# parcel files
-/.parcel-cache
-/dist
-# system
-.DS_Store
