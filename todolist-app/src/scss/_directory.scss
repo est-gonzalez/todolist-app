@@ -1,0 +1,64 @@
+.todoList{
+    width: 100%;
+    border:1px solid black;
+    max-width: 100%;
+    height: 720px;
+    overflow: auto;
+     padding: 3rem 1rem 0;
+     header{
+       text-align: center;
+       color: Blue;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+     h2{
+       font-size: 2rem;
+       font-weight: bold;
+     }
+ }
+ 
+ .todo{
+   padding: 1rem;
+   border: 1px solid black;
+   border-radius: 1rem;
+   margin-bottom: 1.3rem;
+   p:first-child{
+     font-weight: bold;
+     font-size: 1.5rem;
+   }
+   li:first-child{
+    border: 1px solid green;
+    border-left: 2rem green solid;
+   }
+   li:nth-child(2){
+    border: 1px solid blue;
+    border-left: 2rem blue solid;
+   }
+   li:nth-child(3){
+    border: 1px solid red;
+    border-left: 2rem red solid;
+   }
+   li:nth-child(4){
+    border: 1px solid purple;
+    border-left: 2rem purple solid;
+   }
+   li:nth-child(5){
+    border: 1px solid orange;
+    border-left: 2rem orange solid;
+   }
+
+ }
+
+ 
+ .controls{
+   margin-top: 1rem;
+   display: flex;
+   justify-content: flex-end;
+   button{ 
+     background-color: gray;
+     border-radius: 6px;
+     border:none;
+     color:white;
+     margin: 0.25rem;
+   }
+ }
+  
